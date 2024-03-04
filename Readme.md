@@ -10,24 +10,24 @@ Predictive process monitoring is essential for forecasting on-going process outc
 ## Log features
 __1. Variant coverage__
 This feature measures the appearance of newly observed variants in the test data, which were not included during model training. 
-\[
+$$
 \mathcal{V}_{ti} = \frac{\lvert Var(W_{train}) \cap Var(W_{ti}) \lvert}{\lvert Var(W_{ti}) \lvert}
-\]
+$$
 
 __2. Label distribution__
 This log feature measures the appearance of newly observed categorical event-level attributes in the test data.
 
-\[
+$$
 \mathcal{D}_{ti} = \frac{\lvert \{\sigma \lvert \sigma\in W_{ti} \wedge y(\sigma) = TRUE \} \lvert}{\lvert \{ \sigma \in W_{ti} \} \lvert}
-\]
+$$
 
 
 __3. Event level attributes coverage__
 This log feature measures the appearance of newly observed categorical event-level attributes in the test data.
 
-\[  
+$$  
 \mathcal{C}_{ti} = \frac{\lvert \{ D_{test} \} \cap \{ D_{train} \}\lvert}{\lvert \{ D_{test} \}\lvert}
-\]
+$$
 
 ## Results
 __Overview__

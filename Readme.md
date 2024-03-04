@@ -10,6 +10,7 @@ Predictive process monitoring is essential for forecasting on-going process outc
 ## Log features
 __1. Variant coverage__
 This feature measures the appearance of newly observed variants in the test data, which were not included during model training. 
+
 $$
 V_{ti} = \frac{\lvert Var(W_{train}) \cap Var(W_{ti}) \lvert}{\lvert Var(W_{ti}) \lvert}
 $$

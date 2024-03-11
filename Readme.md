@@ -33,4 +33,4 @@ This log feature measures the appearance of newly observed categorical event-lev
     <img src="./readme_img/formula/event_level_attribute_coverage.png" style="margin: 0px 0px 10px 0px">
 </p>
 
-## [Results](./results.md "Results") 
+## [Results](./results.md "Results")

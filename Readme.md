@@ -33,16 +33,4 @@ This log feature measures the appearance of newly observed categorical event-lev
     <img src="./readme_img/formula/event_level_attribute_coverage.png" style="margin: 0px 0px 10px 0px">
 </p>
 
-## Results
-__Overview__
-<p align="center">
-    <img src="./readme_img/result_table2.png" style="margin: 0px 0px 10px 0px">
-    <img src="./readme_img/result_table3.png"  style="margin: 0px 0px 10px 0px">
-    <img src="./readme_img/result_correlation.png">
-    Figure: Four configurations selected based on the log feature correlation
-</p>
-
-
-
-__Retraining strategy__
-[Figures](./train_once_vs_retraining.md "Comparing performance from train once vs retraining")
+## [Results](./results.md "Results") 

@@ -6,7 +6,7 @@ Predictive process monitoring is essential for forecasting on-going process outc
 ## Method
 
 <p align="center">
-    <img src="./readme_img/procedure_method.jpg" style="margin: 0px 0px 10px 0px">
+    <img src="./readme_img/Procedure for Log Feature Calculation Proposed Method.jpg" style="margin: 0px 0px 10px 0px">
 </p>
 
 
@@ -15,22 +15,15 @@ __1. Variant coverage__
 This feature measures the appearance of newly observed variants in the test data, which were not included during model training.
 
 <p align="center">
-    <img src="./readme_img/formula/variant_coverage.png" style="margin: 0px 0px 10px 0px">
+    <img src="./readme_img/variant_coverage.png" style="margin: 0px 0px 10px 0px">
 </p>
 
 __2. Label distribution__
 This log feature measures the appearance of newly observed categorical event-level attributes in the test data.
 
 <p align="center">
-    <img src="./readme_img/formula/label_distribution.png" style="margin: 0px 0px 10px 0px">
+    <img src="./readme_img/label_distribution.png" style="margin: 0px 0px 10px 0px">
 </p>
 
-
-__3. Event level attributes coverage__
-This log feature measures the appearance of newly observed categorical event-level attributes in the test data.
-
-<p align="center">
-    <img src="./readme_img/formula/event_level_attribute_coverage.png" style="margin: 0px 0px 10px 0px">
-</p>
 
 ## [Results](./results.md "Results")
